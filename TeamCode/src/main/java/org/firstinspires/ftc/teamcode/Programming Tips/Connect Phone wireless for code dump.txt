@@ -1,0 +1,14 @@
+1) Modify the path environment variable to add C:\adb to the path variable
+
+2) connect to the Robot controller with the wire using USB cable. 
+
+3) Connect the pc wireless connection to your robot controller wireless connection 
+
+4) In andriod studio terminal run the command IPCONFIG and get the ip address or use phone system information 
+
+5) run command c:\adb tcpip 5555
+
+6) run c:\adb connect [ip address]
+example for one of our phone ip address is 192.168.49.1
+
+
